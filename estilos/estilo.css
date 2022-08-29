@@ -1,0 +1,87 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    display: inline-block;
+    padding-left: 5cm;
+}
+
+a {
+    padding: 8px;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: red;
+}
+
+.barratitulo {
+    text-align: center;
+    max-width: auto; 
+    max-height: 600px;
+    display: block;
+    padding-top: 35px;
+    margin: 0 auto;
+}
+
+.mapa {
+    margin-top: 35px;
+    position: relative;
+    padding-bottom: 75%;
+    height: 0;
+    overflow: hidden;
+}
+
+.mapa iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50%;
+}
+
+.btn {
+    position: fixed;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    bottom: 30px;
+    right: 30px;
+    background: #0df053;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
+    z-index: 100;
+}
+
+.btn:hover {
+    text-decoration: none;
+    color: #0df053;
+    background: #fff;
+}
+
+.contenedor {
+    margin: auto;
+    background-color: white;
+    position: absolute;
+}
+
+ul.slider {
+    position: relative;
+    height: 300px;
+    padding-bottom: 5cm;
+}
